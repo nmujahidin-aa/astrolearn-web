@@ -80,7 +80,7 @@ Version: 1.0.0
   --success-color: #28a745;
   --error-color: #dc3545;
   --border-color: #ecf1f9;
-  --title-font: 'Jost', sans-serif;
+  --title-font: 'Inter', sans-serif;
   --body-font: 'Roboto', sans-serif;
   --icon-font: "Font Awesome 6 Pro";
   --main-container: 1380px;
@@ -11040,7 +11040,7 @@ ul.comment-list .th-comment-item:first-child > .th-post-comment {
 
 .hero-style1 .hero-subtitle {
   color: var(--white-color);
-  font-size: 16px;
+  font-size: 12px;
   font-weight: 600;
   margin-bottom: 30px;
 }
@@ -20827,7 +20827,8 @@ span.select2-selection.select2-selection--single:focus {
 
 .blog-grid-wrap {
   display: grid;
-  grid-template-areas: "one one one one one one two two two two two two" "one one one one one one three three three three three three";
+  grid-template-areas: "one one one one one one two two two two two two"
+ "one one one one one one three three three three three three";
 }
 
 .blog-grid .tag {
@@ -20983,7 +20984,9 @@ span.select2-selection.select2-selection--single:focus {
     --space: 60px;
   }
   .blog-grid-wrap {
-    grid-template-areas: "one one one" "two two two" "three three three";
+    grid-template-areas: "one one one"
+ "two two two"
+ "three three three";
   }
   .blog-grid .blog-img {
     min-width: 400px;
